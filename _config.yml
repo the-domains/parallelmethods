@@ -1,28 +1,40 @@
-name: ParallelMethods
 favicon: null
-layout_spectrum: 0.18080980912782252
-typography_spectrum: 0.013629858149215579
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: ParallelMethods
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
-  brandStrength: 0.040128615917637944
-  lightness: 0.031710718059912324
-  saturation: 0.40715610748156905
-  rhythmicContrast: 0.8657022630795836
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4071561
+  brandStrength: 1
+  lightness: 0
+  brandColors:
+    - '#07050B'
+    - '#FDFDFC'
+    - '#ADA3F3'
+    - '#5C5C4B'
+    - '#FF5C4A'
+  rhythmicContrast: 0.8657023
+typography_spectrum: 0.2207304
+layout_spectrum: 0.2046187
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
